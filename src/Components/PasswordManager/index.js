@@ -26,7 +26,7 @@ class PasswordManager extends Component {
     this.setState({websiteInput: event.target.value})
   }
 
-  onAddUsername = event => {
+  onAddUsename = event => {
     this.setState({usernameInput: event.target.value})
   }
 
@@ -82,7 +82,7 @@ class PasswordManager extends Component {
   }
 
   renderNoPassword = () => (
-    <div className="no-password-container">
+    <div className="nopassword-container">
       <img
         src="https://assets.ccbp.in/frontend/react-js/no-passwords-img.png"
         alt="no passwords"
@@ -155,7 +155,7 @@ class PasswordManager extends Component {
                   type="text"
                   className="inputBar"
                   value={usernameInput}
-                  onChange={this.onAddUsername}
+                  onChange={this.onAddUsename}
                   placeholder="Enter Username"
                 />
               </div>

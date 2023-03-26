@@ -205,7 +205,7 @@
   align-items: center;
 }
 
-.no-password-container {
+.nopassword-container {
   /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
